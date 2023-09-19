@@ -1,0 +1,376 @@
+@media screen and (max-width: 1024px) {
+
+    /* home content start */
+    #home {
+
+        height: auto;
+    }
+
+    .logo {
+        padding: 20px;
+    }
+
+    .main-header {
+        height: auto;
+    }
+
+    .nav-toggle>button {
+        font-size: 30px;
+        background-color: white;
+        border: 0px;
+    }
+
+    .nav-toggle>button:hover {
+        color: red;
+        scale: 1.2;
+        cursor: pointer;
+    }
+
+    .unorder-list {
+        flex-direction: row;
+    }
+
+    .home-contain {
+        padding-top: 40px;
+        height: auto;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        /* gap: 40px; */
+        margin: 0;
+    }
+
+    .personal-img {
+        width: 50%;
+        justify-content: end;
+    }
+
+    .myimg {
+
+        width: 300px;
+        height: 300px;
+
+
+    }
+
+    .personal-info {
+        width: 50%;
+
+    }
+
+    /* home content end */
+
+    /* about section start */
+    #about {
+
+        height: auto;
+        margin: 0px;
+    }
+
+    .about-containt {
+        height: auto;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .about-img-container {
+        width: 40%;
+        justify-content: center;
+        /* padding-top: 50px; */
+    }
+
+    .about-img {
+        width: 375px;
+        height: 375px;
+    }
+
+    .about-containt-right {
+        width: 60%;
+    }
+
+    .about-containt-box {
+        gap: 10px;
+    }
+
+    .cont-box {
+        width: 250px;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .cont-box-icon {
+        font-size: 20px;
+    }
+
+    /* about section end */
+
+    /* Experience section start */
+    #experience {
+        height: auto;
+        margin: 0px;
+    }
+
+    .experience-containt {
+        height: auto;
+        gap: 20px;
+        padding: 60px 20px;
+    }
+
+    .experience-containt-box {
+        width: 50%;
+        padding: 15px;
+    }
+
+    /* Experience section end */
+
+    /* Projects section start */
+    #projects {
+        height: auto;
+        margin: 0px;
+    }
+
+    .projects-containt {
+        height: auto;
+        padding: 50px 0px;
+
+    }
+
+    .projects-containt-cards {
+        width: 100%;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Projects section end */
+
+    /* contact section start */
+      #contact {
+        height: auto;
+        margin: 0px;
+
+    }
+
+     .contact-containt {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+
+    } 
+
+    .contact-img-container {
+        width: 50%;
+        justify-content: end;
+    }
+
+    .contact-img {
+        width: 300px;
+        height: 400px;
+        object-position: 0px -210px;
+    }
+
+    .contact-containt-right {
+        width: 50%;
+        justify-content: start;
+    }
+
+    .contact-form {
+        width: 300px;
+        height: 400px;
+    }
+    /* contact section end */
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* home content start */
+    #home {
+        /* border: 2px solid red; */
+        height: auto;
+    }
+
+    .logo {
+        padding: 20px;
+    }
+
+    .main-header {
+
+        /* flex-direction: column; */
+        /* display: block; */
+        height: auto;
+        /* text-align: center; */
+
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-toggle>button {
+        font-size: 30px;
+        background-color: white;
+        border: 0px;
+    }
+
+    .nav-toggle>button:hover {
+        color: red;
+        scale: 1.2;
+        cursor: pointer;
+    }
+
+    .unorder-list {
+        flex-direction: column;
+    }
+
+    .home-contain {
+        padding-top: 40px;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 0;
+    }
+
+    .personal-img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .myimg {
+        /* border-radius: 50%; */
+        width: 300px;
+        height: 300px;
+        /* object-fit: cover;
+        object-position: 0% 30%; */
+
+    }
+
+    .personal-info {
+        width: 100%;
+    }
+
+    /* home content end */
+
+    /* about section start */
+    #about {
+
+        height: auto;
+        margin: 0px;
+    }
+
+    .about-containt {
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .about-img-container {
+        width: 100%;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .about-img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about-containt-right {
+        width: 100%;
+    }
+
+    .about-containt-box {
+        gap: 10px;
+    }
+
+    /* about section end */
+
+    /* Experience section start */
+    #experience {
+
+        height: auto;
+        margin: 0px;
+    }
+
+    .experience-containt {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        padding: 60px 20px;
+    }
+
+    .experience-containt-box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* Experience section end */
+
+    /* Projects section start */
+    #projects {
+        height: auto;
+        margin: 0px;
+    }
+
+    .projects-containt {
+        height: auto;
+        flex-direction: column;
+        padding: 50px 0px;
+
+    }
+
+    .projects-containt-cards {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Projects section end */
+
+    /* contact section start */
+    #contact {
+        height: auto;
+        margin: 0px;
+
+    }
+
+    .contact-containt {
+        height: auto;
+        flex-direction: column;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+
+    }
+
+    .contact-img-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-img {
+        width: 300px;
+        height: 400px;
+        object-position: 0px -210px;
+    }
+
+    .contact-containt-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-form {
+        width: 300px;
+        height: 400px;
+    }
+    /* contact section end */
+}
