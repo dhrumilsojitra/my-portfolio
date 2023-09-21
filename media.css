@@ -196,10 +196,11 @@
 
     .main-header {
 
-        /* flex-direction: column; */
+        /* flex-direction: row; */
         /* display: block; */
         height: auto;
-        /* text-align: center; */
+        text-align: center;
+        
 
 
     }

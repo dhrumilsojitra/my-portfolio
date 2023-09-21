@@ -26,9 +26,12 @@ body {
 .nav-toggle{
     display: none;
 }
-/* .navbar {
+.navbar {
     display: block;
-} */
+}
+.navbar2{
+    display: none;
+}
 .logo {
     font-size: 30px;
 }
