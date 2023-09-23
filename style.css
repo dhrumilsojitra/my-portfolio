@@ -23,15 +23,19 @@ body {
     align-items: center;
     height: 17vh;
 }
-.nav-toggle{
+
+.nav-toggle {
     display: none;
 }
+
 .navbar {
     display: block;
 }
-.navbar2{
+
+.navbar2 {
     display: none;
 }
+
 .logo {
     font-size: 30px;
 }
@@ -173,6 +177,7 @@ body {
 }
 
 /* header end */
+
 /* about section start */
 #about {
     /* border:2px solid blueviolet; */
